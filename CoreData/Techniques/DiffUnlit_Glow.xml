@@ -1,0 +1,6 @@
+<technique vs="Unlit_Glow" ps="Unlit_Glow" vsdefines="VERTEXCOLOR" psdefines="DIFFMAP VERTEXCOLOR" >
+    <pass name="base" />
+    <pass name="prepass" psdefines="PREPASS" />
+    <pass name="material" />
+    <pass name="deferred" psdefines="DEFERRED" />
+</technique>
